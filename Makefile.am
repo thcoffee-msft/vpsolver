@@ -26,6 +26,6 @@ __top_builddir__bin_vpsolver_LDFLAGS = -L$(GUROBI_HOME)/lib/
 if GUROBI_LIBS_SET
 __top_builddir__bin_vpsolver_LDADD = -lpthread $(GUROBI_LIBS)
 else
-__top_builddir__bin_vpsolver_LDADD = -lpthread -lgurobi_c++ -lgurobi65
+__top_builddir__bin_vpsolver_LDADD = -lpthread -lgurobi_c++ -lgurobi75
 endif
 endif
